@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "\\images",
+    "\\js",
+    "\\src\\components",
+    "\\src\\components\\resume",
+    "\\src\\components\\testimonials",
+    "\\styles"
   ],
-  "SelectedNode": "\\babel.html",
+  "SelectedNode": "\\upload-portfolio-lambda.py",
   "PreviewInSolutionExplorer": false
 }
