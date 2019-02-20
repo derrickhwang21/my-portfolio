@@ -1,5 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import ExampleWork from './example-work';
+import 'react-dom';
 
-ReactDOM.render(<ExampleWork />, document.getElementById('example-work'))
+console.log("Loaded React Dom")

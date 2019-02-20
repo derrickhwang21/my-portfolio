@@ -1,12 +1,10 @@
 {
   "ExpandedNodes": [
+    "",
     "\\images",
     "\\js",
-    "\\src\\components",
-    "\\src\\components\\resume",
-    "\\src\\components\\testimonials",
     "\\styles"
   ],
-  "SelectedNode": "\\upload-portfolio-lambda.py",
+  "SelectedNode": "\\webpack.config.js",
   "PreviewInSolutionExplorer": false
 }
