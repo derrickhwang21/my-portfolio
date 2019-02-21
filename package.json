@@ -27,8 +27,14 @@
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
+    "babel-jest": "^24.1.0",
     "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "jest": "^24.1.0",
+    "react-test-renderer": "^16.8.2",
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3"
   }
