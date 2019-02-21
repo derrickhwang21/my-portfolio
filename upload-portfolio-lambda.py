@@ -2,7 +2,7 @@ import boto3
 from botocore.client import Config
 import mimetypes
 import StringIO
-import zipfile 
+import zipfile  
 
 def lambda_handler(event, context):
     location = {
@@ -14,7 +14,7 @@ def lambda_handler(event, context):
     
     if job:
         for artifact in job["data"]["inputArtifcats"]:
-            if artifact["name"] == "portfolioBuild":
+            if artifact["name"] == "MyAppBuild":
                 location = artifact["location"]["s3Location"]
                 
                 
