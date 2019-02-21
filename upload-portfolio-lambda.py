@@ -13,7 +13,7 @@ def lambda_handler(event, context):
     job = event.get("CodePipeline.job")
     
     if job:
-        for artifact in job["data"]["inputArtifcats"]:
+        for artifact in job["data"]["inputArtifacts"]:
             if artifact["name"] == "MyAppBuild":
                 location = artifact["location"]["s3Location"]
                 
@@ -41,4 +41,4 @@ def lambda_handler(event, context):
         codepipeline = boto3.client('codepipeline')
         codepipeline.put_job_success_result(jobId=job["id"])
             
-    return 'Hello from Lambda'    
+    return 'Hello from Lambda'
