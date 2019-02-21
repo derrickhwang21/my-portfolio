@@ -34,6 +34,11 @@ def lambda_handler(event, context):
                 portfolio_bucket.upload_fileobj(obj, nm) 
             else:
                 portfolio_bucket.upload_fileobj(obj, nm, ExtraArgs={'ContentType': mimetype})
-            portfolio_bucket.Object(nm).Acl().put(ACL='public-read')
+                portfolio_bucket.Object(nm).Acl().put(ACL='public-read')
+    
+    print "Job done!"
+    if job:
+        codepipeline = boto3.client('codepipeline')
+        codepipeline.put_job_success_result(jobId=job["id"])
             
-    return 'Hello from Lambda'      
+    return 'Hello from Lambda'    
