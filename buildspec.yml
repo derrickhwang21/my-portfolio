@@ -9,8 +9,8 @@ artifacts:
   files:
     - index.html
     - favicon.ico
-    - images/example1.png
-    - images/example2.png
-    - images/example3.png
+    - images/dns.png
+    - images/iot.png
+    - images/XSighting.png
     - styles/main.css
     - dist/bundle.js
