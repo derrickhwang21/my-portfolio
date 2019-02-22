@@ -1,37 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ExampleWork from './example-work';
+import ExampleWork from './components/works/example-work';
 
 const myWork = [
     {
-        'title': "Work Example",
-        'href': "https://example.com",
-        'desc': "lorem ipsum, blalalala lalalalal alalalal alal badfk sdihgkv sdffg",
+        'title': "XSighting",
+        'href': "https://github.com/XSighting/XSighting-Android/",
+        'desc': "An Android application on the Google Cloud Platform, for the UFO community to document, share their UFO sightings, and receive notifications about sightings within their vicinity.",
         'image': {
-            'desc': "example screenshot of a project involving code",
-            'src': "images/example1.png",
+            'desc': "screenshot of XSighting main activity",
+            'src': "images/XSighting.png",
             'comment': ""
         }
     },
     {
-        'title': "Work Example",
+        'title': "Parking IoT",
         'href': "https://example.com",
-        'desc': "lorem ipsum, blalalala lalalalal alalalal alal badfk sdihgkv sdffg",
+        'desc': "Physical Device (Internet of Things - IoT) organization project using webclient HTTP interaction with a Spring MVC server side web application to automate the availability status of a parking space in a parking lot. Creating a webpage to allow users to find available/occupied space quickly to save time and fuel.",
         'image': {
-            'desc': "example screenshot of a project involving chemistry",
-            'src': "images/example2.png",
+            'desc': "Logo of DMD-CodeFellows",
+            'src': "images/iot.png",
             'comment': ""
         }
     },
     {
-        'title': "Work Example",
-        'href': "https://example.com",
-        'desc': "lorem ipsum, blalalala lalalalal alalalal alal badfk sdihgkv sdffg",
+        'title': "Algorithm Challenges",
+        'href': "https://github.com/derrickhwang21/data-structures-and-algorithms",
+        'desc': "Collection of daily code challenges for Codefellows 401 - Java",
         'image': {
             'desc': "example screenshot of a project involving cats",
-            'src': "images/example3.png",
-            'comment': `"“Bengal cat” by roberto shabs is licensed under CC BY 2.0
-                        https://www.flickr.com/photos/37287295@N00/2540855181"`
+            'src': "images/dns.png",
+            'comment': ""
         }
     }
 ]
