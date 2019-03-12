@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import ExampleWork from './works/example-work';
-import ExampleWorkModal from './works/example-work-modal';
+import ExampleWork from './example-work';
+import ExampleWorkModal from './example-work-modal';
 
 const myWork = [
     {
@@ -35,15 +35,15 @@ const myWork = [
         }
     }
 ]
-class App extends Component {
+class ExampleWorks extends Component {
     render() {
     return (
         
-        <ExampleWork work = {myWork}/>
+        <ExampleWork work = {this.myWork}/>
 
     )
     }
 }
 
-export default App;
+export default ExampleWorks;
 export {ExampleWorkModal}
