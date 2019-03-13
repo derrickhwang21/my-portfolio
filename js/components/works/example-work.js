@@ -54,6 +54,8 @@ class ExampleWorkBubble extends React.Component {
     render() {
         let example = this.props.example;
         return (
+            
+
             <div className="section__exampleWrapper"
                 onClick ={ (evt) => this.props.openModal(evt, example) } >
                 <div className="section__example">
@@ -68,7 +70,7 @@ class ExampleWorkBubble extends React.Component {
                     </dt>
                     <dd></dd>
                     </dl>
-              </div>
+                </div>
             </div>
         )
     }
